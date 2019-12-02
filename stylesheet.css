@@ -1,10 +1,10 @@
 body {
     background-image: url("background.jpg");
     margin: 30px 30px; 
+    font-family: 'Rubik', sans-serif;
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
     border: 2px solid #e6e6e9;
     margin: 15px 15px;
     padding: 10px 10px;
@@ -13,20 +13,12 @@ h1 {
     background-color: #e6e6e9;
 }
 
-h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    border: 2px solid #40c9a2;
-    padding: 10px 10px;
-    border-radius: 8px;
-    box-shadow: 10px 10px 5px gray;
-    background-color: #e6e6e9;
+h4 {
+    margin: 15px 15px;
+    padding: 5px 5px;
 }
 
-p {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-ul {
+#navigationBar {
     list-style-type: none;
     margin: 15px 15px;
     padding: 0;
@@ -36,6 +28,15 @@ ul {
     border-radius: 8px;
     box-shadow: 10px 10px 5px gray;
 }
+
+#socialMedia {
+    list-style-type: none;
+    margin: 15px 15px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e6e6e9;
+}
+
 
 a:link {
     color: black;
@@ -60,8 +61,8 @@ a:active {
 li {
     list-style-type: none;
     float: left;
-    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    display: inline-block;
 
 }
 
@@ -79,10 +80,10 @@ li a:hover {
 }
 
 div {
-    font-family: Arial, Helvetica, sans-serif;
-    border: 2px solid #40c9a2;
+    border: 2px solid #664147;
     padding: 10px 10px;
     border-radius: 8px;
     box-shadow: 10px 10px 5px gray;
     background-color: #e6e6e9;
+    margin: 15px 15px;
 }

@@ -50,6 +50,20 @@ embed {
     margin: 15px 15px;
 }
 
+h3.videoheader {
+    margin: 15px 15px;
+    padding: 0px;
+}
+
+p.videoheader {
+    margin: -15px 15px 15px 15px;
+    padding: 0px;
+}
+
+iframe.videoheader{
+    margin: 5px 15px 15px -20px;
+}
+
 a:link {
     color: black;
     text-decoration: none;
@@ -94,13 +108,15 @@ li a:hover {
     border: #a2a2a2;
 }
 
-div {
+div.mainpage {
     border: 2px solid #777777;
     padding: 10px 10px;
     border-radius: 8px;
     box-shadow: 10px 10px 5px gray;
     background-color: #e6e6e9;
     margin: 15px 15px;
+    animation: fadeIn 1.5s, moveDown .5s;
+    overflow: hidden;
 }
 
 iframe {

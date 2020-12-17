@@ -18,18 +18,18 @@ h4 {
     padding: 5px 5px;
 }
 
-#navigationBar {
+.navigationBar {
     list-style-type: none;
     margin: 15px 15px;
     padding: 0;
     overflow: hidden;
     background-color: #e6e6e9;
-    border: 2px solid #40c9a2;
+    border: 2px solid #FF7171;
     border-radius: 8px;
     box-shadow: 10px 10px 5px gray;
 }
 
-#socialMedia {
+.socialMedia {
     list-style-type: none;
     margin: 15px 15px;
     padding: 0;
@@ -37,6 +37,17 @@ h4 {
     background-color: #e6e6e9;
 }
 
+.favoriteVids {
+    list-style-type: none;
+    margin: 15px 15px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #e6e6e9;
+}
+
+embed {
+    margin: 15px 15px;
+}
 
 a:link {
     color: black;
@@ -51,6 +62,9 @@ a:visited{
 a:hover {
     color: black;
     text-decoration: none;
+    border-radius: 60px;
+    transition-duration: 250ms;
+    box-shadow: 0px 0px 3px gray;
 }
 
 a:active {
@@ -80,10 +94,33 @@ li a:hover {
 }
 
 div {
-    border: 2px solid #664147;
+    border: 2px solid #777777;
     padding: 10px 10px;
     border-radius: 8px;
     box-shadow: 10px 10px 5px gray;
     background-color: #e6e6e9;
     margin: 15px 15px;
 }
+
+iframe {
+    margin: 10px;
+    box-shadow: #0000005e 0 0 10px;
+}
+
+div.scrollmenu {
+    background-color: #E6E6E9;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }

@@ -64,6 +64,10 @@ iframe.videoheader{
     margin: 5px 15px 15px -20px;
 }
 
+a:link.channellink{
+    color:gray
+}
+
 a:link {
     color: black;
     text-decoration: none;

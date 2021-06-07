@@ -24,7 +24,7 @@ h4 {
     padding: 0;
     overflow: hidden;
     background-color: #e6e6e9;
-    border: 2px solid #FF7171;
+    border: 2px solid #FF8080;
     border-radius: 8px;
     box-shadow: 10px 10px 5px gray;
 }
@@ -138,6 +138,15 @@ div.scrollmenu {
     text-decoration: none;
   }
   
-  div.scrollmenu a:hover {
-    background-color: #777;
-  }
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 10px;
+    background-color: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ff8080;
+    border-radius: 50px;
+}
+

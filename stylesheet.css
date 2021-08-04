@@ -1,20 +1,22 @@
 body {
     font-family: 'Nunito', sans-serif;
+    background-image: url('background.jpg');
 }
 
 h1 {
     font-size: 50px;
     margin: auto;
     text-align: center;
+    color: #ff8080;
 } 
 
-#navigationBar div {
-    
-}
-
-#navigationBar ul {
+#navigationBar {
     text-align: center;
     margin: auto;
+    padding: 0;
+    width: fit-content;
+    border-bottom: 5px solid #ff8080;
+    border-radius: 5px;
 }
 
 #navigationBar li {
@@ -40,8 +42,30 @@ h1 {
     transition-duration: 300ms;
 }
 
+.page h3 {
+    font-size: 40px;
+    margin: auto;
+    padding-top: 40px;
+    text-align: center;
+    color: #e8e8e8;
+}
+
 .page p {
     font-size: 30px;
     margin: auto;
+    padding-top: 15px;
     text-align: center;
+    width: 50%;
+    color: #e8e8e8;
+}
+
+.page ul {
+    font-size: 30px;
+}
+
+.page li {
+    margin: auto;
+    text-align: center;
+    list-style-position: inside;
+    color: #e8e8e8;
 }
